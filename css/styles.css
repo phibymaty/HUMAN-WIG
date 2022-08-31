@@ -1,9 +1,24 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 7em;
+  justify-content: flex-end;
+  color: #000;
+  font-weight: 700;
+  padding: 1em;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: pink;
+}
+
 .main__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  background: pink;
 }
 .main__footer ul {
   list-style-type: none;
@@ -13,6 +28,47 @@
   list-style-type: none;
 }
 
+.lence-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 2em;
+  font-size: 1em;
+  width: 100%;
+}
+
+.lence-left img {
+  width: 20%;
+  height: 100%;
+}
+.lence-left .about-us {
+  text-align: center;
+  padding-top: 2em;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1em;
+  width: 70%;
+  padding: 2em;
+}
+
+.img_img {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+#type {
+  padding: 1.2em;
+  text-align: center;
+  margin: 6em;
+  font-size: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +76,50 @@
   font-family: sans-serif;
 }
 
-h2 {
+.btn1 {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background: black;
+  color: white;
+  text-align: center;
+  box-shadow: wheat;
+  margin-bottom: 1.5em;
+}
+
+h1 {
   text-decoration: line-through;
+  margin-top: 0.5em;
+}
+
+p {
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.img_nav {
+  padding: 2em 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img_nav .img_height {
+  height: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn2 {
+  font-size: 1em;
+  padding: 0.5em;
+  background: black;
+  color: white;
+  border-radius: 0.5em;
+  margin: 1em;
+  padding: 0.5em;
 }
 
 .hero {
@@ -29,15 +127,6 @@ h2 {
   height: 100vh;
   cursor: pointer;
   background: url("../images/pin.jpg") no-repeat center center/cover;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 7em;
-  justify-content: flex-end;
-  color: #000;
-  font-weight: 700;
 }
 
 .row {
@@ -57,4 +146,11 @@ nav ul {
   padding: 20px 50px;
   text-align: center;
   color: white;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  margin: 5em;
+  padding: 1em;
 }/*# sourceMappingURL=styles.css.map */

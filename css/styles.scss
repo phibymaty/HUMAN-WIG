@@ -1,7 +1,10 @@
+@use "./sections/nav";
 @use "./sections/footer";
-
+@use "./utilities/Contact";
 @use "./utilities/base";
-@use "./utilities/main.scss";
+@use "./utilities/main";
+@use "./utilities/shop";
+
 
 .hero {
     width: 100%;
@@ -12,16 +15,6 @@
 
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 7em;
-    justify-content: flex-end;
-    color: #000;
-    font-weight: 700;
-
-
-}
 
 .row {
     display: flex;
@@ -43,4 +36,10 @@ nav ul {
     padding: 20px 50px;
     text-align: center;
     color: white;
+}
+.btn{
+    background: #000;
+    color: white;
+    margin: 5em;
+    padding: 1em;
 }

@@ -1,0 +1,47 @@
+.lence-right{
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+   margin: 2em;
+   font-size: 1em;
+   width: 100%;
+}
+
+.lence-left{
+    // display: flex;
+    // justify-content: space-between;
+    img{
+        width:20%;
+        height:100%;
+        
+
+    }
+    .about-us{
+        text-align:center;
+    padding-top: 2em;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    width: 70%;
+    padding: 2em;
+    }
+}
+.img_img{
+display: flex;
+justify-content: flex-end;
+width: 70%;
+}
+#type{
+    padding: 1.2em;
+    text-align: center;
+    margin: 6em;
+    font-size: 1em;
+   
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
