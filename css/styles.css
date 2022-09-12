@@ -69,11 +69,18 @@ nav ul li:hover {
   justify-content: center;
 }
 
+.btn__btn {
+  background: black;
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 .btn1 {
@@ -112,7 +119,7 @@ p {
   justify-content: space-between;
 }
 
-.btn2 {
+.btn2, .btn_2 {
   font-size: 1em;
   padding: 0.5em;
   background: black;
@@ -120,6 +127,30 @@ p {
   border-radius: 0.5em;
   margin: 1em;
   padding: 0.5em;
+}
+
+h5 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+}
+h5:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.lence1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heading {
+  text-align: center;
+  padding: 2em;
+}
+
+.paragraph {
+  padding: 2em;
 }
 
 .hero {
